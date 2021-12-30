@@ -1,0 +1,42 @@
+.task-container {
+  display: flex;
+  flex-direction: column;
+  width: calc(500px - 15px*2);
+  background-color: gainsboro;
+  padding: 15px;
+}
+
+.task-title {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.task-description {
+  font-size: 12pt;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.task-finish-button {
+  font-size: 14px;
+  padding: 15px;
+  border: none;
+}
+
+.task-finish-button:hover {
+  background-color: gainsboro;
+  cursor: pointer;
+}
+
+.task-finish-button-open {
+  font-size: 14px;
+  padding: 15px;
+  border: none;
+  color: white;
+  background-color: #3FBF7F;
+}
+
+.task-finish-button-open:hover {
+  background-color: #26724C;
+  cursor: pointer;
+}

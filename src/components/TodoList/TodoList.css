@@ -1,0 +1,41 @@
+.todolist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+}
+
+.todolist-title {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.todolist-tasks-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.todolist-task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 500px;
+}
+
+.todolist-task-form-input {
+  font-size: 14px;
+  padding: 15px;
+}
+
+.todolist-task-form-button {
+  font-size: 14px;
+  padding: 15px;
+  border: none;
+}
+
+.todolist-task-form-button:hover {
+  background-color: gainsboro;
+  cursor: pointer;
+}
