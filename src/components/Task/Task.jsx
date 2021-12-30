@@ -8,7 +8,7 @@ const Task = (props) => {
       <p className="task-description">{props.description}</p>
       <button
         className={'task-finish-button' + (!props.finished ? '-open' : '')}
-        onClick={props.handleFinishTask(props.id)}
+        onClick={() => props.handleTaskFinish(props.id)}
       >
         {props.finished ? 'Reabrir' : 'Finalizar'}
       </button>

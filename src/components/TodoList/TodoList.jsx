@@ -19,7 +19,11 @@ const TodoList = () => {
     }
   };
 
-  const handleFinishTask = (id) => {};
+  const handleTaskFinish = (id) => {
+    const newTasks = [...tasks];
+    newTasks[id].finished = !newTasks[id].finished;
+    setTasks(newTasks);
+  };
 
   return (
     <div className="todolist-container">
@@ -55,7 +59,7 @@ const TodoList = () => {
               title={task.title}
               description={task.description}
               finished={task.finished}
-              handleFinishTask={handleFinishTask}
+              handleTaskFinish={handleTaskFinish}
               key={index}
             />
           );
