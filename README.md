@@ -15,4 +15,4 @@ npm start
 
 ## 📝 License
 
-This project is [MIT](https://github.com/hugolinhareso/round-robin/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/hugolinhareso/todo-list/blob/main/LICENSE) licensed.
